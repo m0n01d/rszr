@@ -16,3 +16,6 @@ Select quality 0-100
 Choose image(s)
 it will resize and add the image to the page
 then you can copy and paste or save your images
+
+
+try it at http://dwit.us/rszr/
