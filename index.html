@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" manifest="rszr.appcache">
+   <head>
+      <meta charset="utf-8">
+      <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no, minimal-ui">
+     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>RSZR</title>
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <body>
+      <input type="file" accept="image/*" id="multiInput" class="image_upload" multiple>
+      <input type="file" accept="image/*" id="cameraInput" class="image_upload">
+      <div id="content">
+         <h3>Rszr</h3>
+         <p> Quality: <span id="range_val">85</span></p>
+         <input type="range" id="quality" min="1" max="100" value="85"><br/>
+         <a href="#" id="activateCamera">Take Photo</a> or <a href="#" id="activate">Choose Image(s)</a>
+         <div id="image_wrap">
+         </div>
+      </div>
+      <script src="js/binaryajax.js"></script>
+      <script src="js/exif.js"></script>
+      <script src="js/canvasResize.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+
+</html>
